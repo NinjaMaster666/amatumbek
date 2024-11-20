@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  background-image: url('https://sun9-38.userapi.com/impg/DGKPvIRg7ghPyfOK4rFb9eVd7A8QFMg7-OeFng/cIqTaJZa37Q.jpg?size=421x604&quality=96&sign=dcdddbc11f33ea4c80f4b7a63ac29e12&type=album');
+  background-repeat: none;
+  background-size: cover;
+  opacity: 0;
+  animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
